@@ -179,6 +179,38 @@ button:hover {
   animation: fadeInAnimation 0.8s ease-out forwards;
 }
 
+/* Profil Container */
+.profile {
+    display: flex;
+    align-items: center;
+    gap: 20px;
+    margin: 40px auto;
+    max-width: 800px;
+    padding: 20px;
+    background-color: #f2f2f2;
+    border-radius: 12px;
+}
+
+/* oval */
+.profile-photo {
+    width: 150px;
+    height: 200px;
+    object-fit: cover;
+    border-radius: 50% / 40%;
+    border: 2px solid #ccc;
+}
+
+.profile-info h2 {
+    margin: 0;
+    font-size: 24px;
+}
+
+.profile-info p {
+    margin-top: 10px;
+    line-height: 1.6;
+    font-size: 16px;
+}
+
 @keyframes fadeInAnimation {
   to {
     opacity: 1;
